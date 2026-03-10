@@ -21,7 +21,7 @@ Run (Windows PowerShell):
   . .\.venv\Scripts\Activate.ps1
   python -m pip install --upgrade pip
   pip install fastapi uvicorn pydantic
-  python -m uvicorn bonus_service:app --host 127.0.0.1 --port 8095 --reload
+  python -m uvicorn bonus_microservice:app --host 127.0.0.1 --port 8095 --reload
 """
 
 from fastapi import FastAPI, HTTPException
